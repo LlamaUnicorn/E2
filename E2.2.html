@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--<script src="javascript.js"></script>-->
+<!--src async defer type-->
+
+<!--prompt()-->
+<!--alert()-->
+
+<!--x += y-->
+
+
+<!--let x;-->
+
+<!--console.log(x = 10);-->
+<!--10-->
+
+
+<!--let a = 10;-->
+<!--undefined-->
+<!--typeof a;-->
+<!--"number"-->
+
+
+<!--console.log(1 || 0);-->
+<!--undefined-->
+<!--1-->
+<!--console.log(1 && 0);-->
+<!--0-->
+<!--undefined-->
+
+<!--!true;-->
+<!--false-->
+
+<!--if (result < 4) {-->
+<!--console.log("результат меньше 4")-->
+<!--} else {-->
+<!--console.log("результат больше или равен 4")-->
+<!--}-->
+<script>
+let yourNumber;
+yourNumber = prompt('Enter your number')
+let stringToNumber;
+stringToNumber = +yourNumber;
+console.log('Your input is', stringToNumber, typeof stringToNumber)
+if (typeof stringToNumber === 'number') {
+    if (isNaN(yourNumber)) {
+        console.log('Entered NaN')
+    }
+    if (stringToNumber % 2 === 0) {
+        console.log(stringToNumber, 'is even number')
+    }
+    if (stringToNumber % 2 === 1) {
+        console.log(stringToNumber, 'is odd number')
+    } else {
+        console.log('That\'s weird!')
+    }
+} else {
+console.log('Oops, input is not a number')
+}
+
+const inputValue = prompt('Введите число')
+
+const value = +inputValue;
+
+if (typeof value == "number" && !isNaN(value)) {
+    if (value === 0) {
+        console.log('ноль')
+    } else if (value % 2 === 0) {
+        console.log('чётное')
+    } else {
+        console.log('нечётное')
+    }
+} else {
+    console.log('Упс, кажется, вы ошиблись')
+}
+</script>
+<!--const a = 1;-->
+<!--const b = 2;-->
+<!--const result = a + b;-->
+
+<!--switch (result) {-->
+<!--case 0:-->
+<!--console.log('результат равен 0');-->
+<!--break;-->
+<!--case 1:-->
+<!--console.log('результат равен 1');-->
+<!--break;-->
+<!--case 2:-->
+<!--console.log('результат равен 2');-->
+<!--break;-->
+<!--case 3:-->
+<!--console.log('результат равен 3');-->
+<!--break;-->
+<!--default:-->
+<!--console.log('результат не равен числам 1,2,3');-->
+<!--}-->
+
+
+<!--text  = result < 4 ? "результат меньше 4" : "результат больше или равен 4"-->
+
+prompt=('s')
+</body>
+</html>
